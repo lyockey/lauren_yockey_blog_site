@@ -9,15 +9,23 @@
 
     </head>
 <body>
-    <header>
-        <h1>WIE</h1>
-        <p>lauren yockey</p>
-    </header>
-    <section>
-        <p>A collection of work from the Web Interactivity &amp; Engagement course as part of the University of Florida's WDOC program</p>
-    </section>
-    <footer>
-        <p>&copy; Lauren Yockey 2016. University of Florida</p>
-    </footer>
+    <div class="container">
+        <header class="row">
+            <div class="twelve columns">
+                <h1>WIE</h1>
+                <p>lauren yockey</p>
+            </div>
+        </header>
+        <section class="row">
+            <div class="twelve columns">
+                <p>A collection of work from the Web Interactivity &amp; Engagement course as part of the University of Florida's WDOC program</p>
+            </div>
+        </section>
+        <footer class="row">
+            <div class="twelve columns">
+                <p>&copy; Lauren Yockey 2016. University of Florida</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
