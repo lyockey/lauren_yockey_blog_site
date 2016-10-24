@@ -1,11 +1,11 @@
 /*
-Theme Name: Lauren Yockey Blank Theme
+Theme Name: Lauren Yockey WIE Blog Site
 Theme URI:
 Author: Lauren Yockey
-Description: Blank theme for WIE course
+Description: WIE Course Blog Site
 Version: 0.1
 License: Open
-Text Domain: lauren_yockey_blank_template
+Text Domain: lauren_yockey_blog_site
 */
 
 @import url("stylesheets/normalize.css");
@@ -17,14 +17,14 @@ Text Domain: lauren_yockey_blank_template
     line-height: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     color: #999999;
     font-weight: 700;
-
 }
 
 h1 {
   font-size: 3.0rem;
+  color: #6ba0d7;
 }
 
 h2 {
