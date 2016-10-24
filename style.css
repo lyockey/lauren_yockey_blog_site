@@ -1,0 +1,74 @@
+/*
+Theme Name: Lauren Yockey Blank Theme
+Theme URI:
+Author: Lauren Yockey
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: lauren_yockey_blank_template
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #999999;
+    font-weight: 700;
+
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+a {
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.blank-menu-header {
+    text-align: left;
+    margin-top: 40px;
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 0px 5px 40px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
