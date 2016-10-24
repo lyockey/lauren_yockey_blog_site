@@ -14,7 +14,7 @@
         <header class="row">
             <div class="twelve columns">
                 <h1><?php bloginfo('name'); ?></h1>
-                <p><?php bloginfo('description'); ?></p>
+                <p id="subhead"><?php bloginfo('description'); ?></p>
             </div>
         </header>
         <!-- END OF HEADER - BEGIN SECTION CONTENT -->
