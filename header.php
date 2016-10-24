@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>WIE - Lauren Yockey</title>
-<?php wp_head(); ?>
+        <title><?php bloginfo('name'); ?></title>
+        <?php wp_head(); ?>
         <!-- Links to our Style.css file -->
     	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 
