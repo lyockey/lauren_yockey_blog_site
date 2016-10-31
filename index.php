@@ -8,7 +8,13 @@
                     <p> &amp; Engagement</p>
                 </div>
             </div>
-
+        <section class="row">
+            <div class="twelve columns">
+                <?php
+                wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'nav-container' ) );
+                ?>
+            </div>
+        </section>
 <!-- INTRO COPY -->
         <section class="row">
             <div class="eight columns">

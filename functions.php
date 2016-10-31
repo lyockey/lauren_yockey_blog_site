@@ -51,8 +51,15 @@ function blank_widgets_init() {
 
 add_action('widgets_init', 'blank_widgets_init');
 
+
 /*-------------- Enable Menu --------------- */
 add_theme_support('menus');
+
+function register_my_menu() {
+  register_nav_menu('main-menu',__( 'Main Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
