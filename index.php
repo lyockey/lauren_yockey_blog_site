@@ -12,7 +12,7 @@
 <!-- INTRO COPY -->
         <section class="row">
             <div class="eight columns">
-                <p id="introcopy">A collection of work from the Web Interactivity &amp; Engagement course as part of the University of Florida's WDOC program</p>
+                <p id="introcopy">A collection of work from the Web Interactivity &amp; Engagement course <span id="bolder">as part of the University of Florida's WDOC program</span></p>
             </div>
         </section>
 <!-- FEATURED POST -->
@@ -34,7 +34,7 @@
                                     <?php the_title(); ?>
                                 </a>
                             </h3>
-                            <p id="fp-excerpt"><?php the_excerpt(); ?></p>
+                            <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
 
                     <?php $i++; endwhile; ?>

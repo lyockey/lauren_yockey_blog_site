@@ -10,7 +10,7 @@ Text Domain: lauren_yockey_blog_site
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
-@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 
 *{
@@ -22,11 +22,11 @@ Text Domain: lauren_yockey_blog_site
 
 h2, h3, h4, h5, h6 {
     color: #999999;
-    font-weight: 700;
 }
 
 h1 {
   font-size: 5.0rem;
+  font-weight: 400;
   color: #6ba0d7;
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -58,9 +58,18 @@ h1 {
 }
 
 #introcopy {
+    width: 95%;
+    text-align: center;
     color: #61386b;
     font-size: 2.5rem;
-    padding-top: 2em;
+    font-weight: 300;
+    padding-top: 3.5em;
+}
+
+#bolder {
+    font-weight: 400;
+    color: #61386b;
+    font-size: 2.5rem;
 }
 
 #fp-heading {
@@ -69,6 +78,7 @@ h1 {
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     font-size: 3.0rem;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -77,16 +87,18 @@ h1 {
     margin: auto;
 }
 
-#fp-title {
-    font-size: 2.0rem;
+.fp-container h3 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
     color: #252525;
 }
 
-#fp-title a {
+.fp-container h3 a {
+    font-size: 2.5rem;
     text-decoration: none;
 }
 
-#fp-excerpt {
+.fp-container p {
     color: #5b5e60;
     font-family: "Slabo 27px", sans-serif;
     font-weight: lighter;
@@ -98,7 +110,9 @@ h1 {
     padding: 0.45em 2em;
     text-decoration: none;
     text-transform: lowercase;
-    font-weight: lighter;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 3px;
 }
 
 /* ------ PAGINATION ------ */
@@ -133,14 +147,39 @@ h1 {
 
 /* ------ SIDEBAR ------ */
 .widget-sidebar h2 {
-    font-family: "Oswald";
+    font-family: "Oswald", sans-serif;
     font-size: 2.0rem;
     color: #61386b;
+    text-transform: uppercase;
 }
+
+.searchform label {
+    text-transform: lowercase;
+    color: #767a7d;
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+
+#searchsubmit {
+    background-color: #61386b;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+}
+
+.textwidget {
+    margin-bottom: 2em;
+    font-family: "Slabo 27px", serif;
+    color: #5b5e60;
+}
+
+
 /* ------ FOOTER ------- */
 .footer-wrapper {
     background-color: #b7b7b7;
-    padding: 50px 1em;
+    padding: 5em 1em 4em;
+    margin-top: 3em;
 }
 
 footer p {
