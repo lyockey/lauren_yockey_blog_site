@@ -49,12 +49,12 @@ h1 {
 .banner p {
     font-family: "Slabo 27px", serif;
     color: #61386b;
-    background-color: #ffffff;
-    font-size: 3.0rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 2.5rem;
     text-transform: uppercase;
     width: 30%;
     padding: 0.75em;
-    margin-left: 550px;
+    margin-left: 60%;
 }
 
 
@@ -66,11 +66,8 @@ h1 {
 .nav-menu {
     background-color: #252525;
     width: 100%;
+    padding-bottom: 2em;
     text-align: center;
-}
-
-.nav-menu ul {
-    margin-bottom: -2.5rem;
 }
 
 .nav-menu ul li {
