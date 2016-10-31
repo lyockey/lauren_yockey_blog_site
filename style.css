@@ -63,6 +63,44 @@ h1 {
     padding-top: 2em;
 }
 
+#fp-heading {
+    padding-top: 1em;
+    color: #252525;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 3.0rem;
+    letter-spacing: 1px;
+}
+
+.fp-container {
+    width: 80%;
+    margin: auto;
+}
+
+#fp-title {
+    font-size: 2.0rem;
+    color: #252525;
+}
+
+#fp-title a {
+    text-decoration: none;
+}
+
+#fp-excerpt {
+    color: #5b5e60;
+    font-family: "Slabo 27px", sans-serif;
+    font-weight: lighter;
+}
+
+.read-more-button {
+    background-color: #61386b;
+    color: #ffffff;
+    padding: 0.45em 2em;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
 /* ------ PAGINATION ------ */
 .navigation li a,
 .navigation li a:hover,

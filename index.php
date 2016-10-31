@@ -19,7 +19,7 @@
               <!-- Begin Loop -->
       <section class="row">
           <div class ="eight columns">
-              <h2>Featured Post</h2>
+              <h2 id="fp-heading">Featured Post</h2>
               <div class="fp-container">
                   <?php
                     $i = 1; while (have_posts() && $i < 2) : the_post();
@@ -29,13 +29,13 @@
                                     the_post_thumbnail('thumbnail');
                                 }
                             ?>
-                            <h3>
+                            <h3 id="fp-title">
                                 <a href="<?php the_permalink(); ?>">
                                     <?php the_title(); ?>
                                 </a>
                             </h3>
-                            <?php the_excerpt(); ?>
-                            <a href="<?php the_permalink(); ?>">Read More</a>
+                            <p id="fp-excerpt"><?php the_excerpt(); ?></p>
+                            <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
 
                     <?php $i++; endwhile; ?>
                   <!-- End Loop -->
