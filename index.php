@@ -18,11 +18,12 @@
 <!-- FEATURED POST -->
               <!-- Begin Loop -->
       <section class="row">
-          <div class ="six columns">
+          <div class ="eight columns">
+              <h2>Featured Post</h2>
+              <div class="fp-container">
                   <?php
-                      if ( have_posts() ) {
-                        while ( have_posts() ) {
-                          the_post(); ?>
+                    $i = 1; while (have_posts() && $i < 2) : the_post();
+                    ?>
                           <?php
                                 if ( has_post_thumbnail() ) {
                                     the_post_thumbnail('thumbnail');
@@ -36,16 +37,11 @@
                             <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>">Read More</a>
 
-                            <?php
-                        } //end while
-                      } //end if
-                  ?>
-
+                    <?php $i++; endwhile; ?>
                   <!-- End Loop -->
-                </div>
-            </section>
+              </div>
+        </div>
 <!-- End Section Container -->
-        <section class="row">
             <div class="four columns">
                 <?php get_sidebar(); ?>
             </div>
