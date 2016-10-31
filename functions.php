@@ -88,7 +88,7 @@ function pagination_wie() {
 		$links[] = $paged + 1;
 	}
 
-	echo '<div class="navigation"><ul>' . "\n";
+	echo '<div class="row"><div class="twelve columns navigation"><ul>' . "\n";
 
 	/**	Previous Post Link */
 	if ( get_previous_posts_link() )
