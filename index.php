@@ -9,7 +9,7 @@
                 </div>
             </div>
         <section class="row">
-            <div class="twelve columns">
+            <div class="twelve columns nav-menu">
                 <?php
                 wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'nav-container' ) );
                 ?>

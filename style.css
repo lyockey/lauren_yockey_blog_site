@@ -57,6 +57,43 @@ h1 {
     margin-left: 550px;
 }
 
+
+/* ------- NAV MENU ----- */
+.nav-container {
+    padding-top: 1em;
+}
+
+.nav-menu {
+    background-color: #252525;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-menu ul {
+    margin-bottom: -2.5rem;
+}
+
+.nav-menu ul li {
+    display: inline;
+    text-transform: lowercase;
+    list-style-type: none;
+    padding: 1em 2em;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #c6cbcf;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+
+.nav-menu ul li a:hover {
+    text-decoration: none;
+    color: #6ba0d7;
+    font-size: 2.0rem;
+}
+
 #introcopy {
     width: 95%;
     text-align: center;
