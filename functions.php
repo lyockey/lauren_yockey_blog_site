@@ -59,7 +59,7 @@ add_theme_support( 'post-thumbnails' );
 
 /* --------- Numbered Pagination ---- */
 
-function wpbeginner_numeric_posts_nav() {
+function pagination_wie() {
 
 	if( is_singular() )
 		return;
