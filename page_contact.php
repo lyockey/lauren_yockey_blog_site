@@ -32,6 +32,6 @@ Template name: Contact
         </div>
 
     </section>
-  <!--End Section Container -->
+<!--End Section Container -->
 
 <?php get_footer(); ?>

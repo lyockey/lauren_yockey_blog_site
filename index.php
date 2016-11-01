@@ -21,32 +21,31 @@
             </div>
         </section>
 <!-- FEATURED POST -->
-              <!-- Begin Loop -->
-      <section class="row">
-          <div class ="eight columns">
-              <h2 class="fp-heading">Featured Post</h2>
-              <div class="page-container">
-                  <?php
+        <section class="row">
+            <div class ="eight columns">
+                <h2 class="fp-heading">Featured Post</h2>
+                <div class="page-container">
+                    <!-- Begin Loop -->
+                    <?php
                     $i = 1; while (have_posts() && $i < 2) : the_post();
                     ?>
-                          <?php
-                                if ( has_post_thumbnail() ) {
-                                    the_post_thumbnail('thumbnail');
-                                }
-                            ?>
-                            <h3 id="fp-title">
-                                <a href="<?php the_permalink(); ?>">
-                                    <?php the_title(); ?>
-                                </a>
-                            </h3>
-                            <?php the_excerpt(); ?>
-                            <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
-
+                        <?php
+                            if ( has_post_thumbnail() ) {
+                                the_post_thumbnail('thumbnail');
+                            }
+                        ?>
+                        <h3 id="fp-title">
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_title(); ?>
+                            </a>
+                        </h3>
+                        <?php the_excerpt(); ?>
+                        <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
                     <?php $i++; endwhile; ?>
-                  <!-- End Loop -->
-              </div>
-        </div>
-<!-- End Section Container -->
+                    <!-- End Loop -->
+                </div>
+            </div>
+        <!-- End Section Container -->
             <div class="four columns">
                 <?php get_sidebar(); ?>
             </div>
