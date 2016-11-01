@@ -39,6 +39,7 @@
                                 <?php the_title(); ?>
                             </a>
                         </h3>
+                        <p class="date"><?php the_date(); ?></p>
                         <?php the_excerpt(); ?>
                         <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
                     <?php $i++; endwhile; ?>

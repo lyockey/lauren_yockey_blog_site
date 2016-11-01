@@ -27,8 +27,10 @@ Template name: Blog Posts
     <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>
                 <h2><?php the_title(); ?></h2>
-                <?php the_content();
-            endwhile; ?>
+                <p class="date"><?php the_date(); ?></p>
+                <?php the_excerpt(); ?>
+                <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
+            <?php endwhile; ?>
         <!-- Navigation -->
         <div class="navigation">
             <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
