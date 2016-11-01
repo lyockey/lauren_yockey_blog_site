@@ -7,6 +7,12 @@ Template name: Blog
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
+
+<section class="row">
+    <div class="twelve columns">
+        <img src="http://laurenyockey.com/wie/wp-content/uploads/2016/10/blog_banner.jpg" alt="Contact" id="blog-banner" />
+    </div>
+</section>
 <section class="row">
   <div class="eight columns">
       <!-- BEGIN LOOP -->
