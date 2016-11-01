@@ -220,7 +220,11 @@ footer p {
 
 
 /* ---------------- BLOG PAGE ------------------ */
-#blog-banner {
+#blog-banner,
+#contact-banner {
     width: 100%;
     height: auto;
 }
+
+
+/* ---------------- CONTACT PAGE ---------------- */
