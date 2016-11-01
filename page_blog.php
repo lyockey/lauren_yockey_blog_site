@@ -21,6 +21,7 @@ Template name: Blog
 </section>
 <section class="row">
   <div class="eight columns">
+      <h2 class="page-heading">Blog Posts</h2>
       <!-- BEGIN LOOP -->
 			<?php
 			if ( have_posts() ) {

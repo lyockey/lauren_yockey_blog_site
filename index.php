@@ -24,8 +24,8 @@
               <!-- Begin Loop -->
       <section class="row">
           <div class ="eight columns">
-              <h2 id="fp-heading">Featured Post</h2>
-              <div class="fp-container">
+              <h2 class="fp-heading">Featured Post</h2>
+              <div class="page-container">
                   <?php
                     $i = 1; while (have_posts() && $i < 2) : the_post();
                     ?>
