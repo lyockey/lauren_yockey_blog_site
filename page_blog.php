@@ -26,17 +26,25 @@ Template name: Blog Posts
     <!-- BEGIN LOOP -->
     <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>
-                <h2><?php the_title(); ?></h2>
+                <?php
+                    if ( has_post_thumbnail() ) {
+                        the_post_thumbnail('thumbnail');
+                    }
+                ?>
+                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <p class="date"><?php the_date(); ?></p>
-                <?php the_excerpt(); ?>
+                <?php the_excerpt(__('Continue reading »','example')); ?>
                 <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
             <?php endwhile; ?>
         <!-- Navigation -->
         <div class="navigation">
             <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
         </div>
-        <?php endif;
-        wp_reset_query(); ?>
+    <?php else: ?>
+        <div class="404-section">
+            <p><?php _e('None found.','example'); ?></p>
+        </div>
+    <?php endif; wp_reset_query(); ?>
     <!-- END LOOP -->
     </div>
     <div class="four columns">
