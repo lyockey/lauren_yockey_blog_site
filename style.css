@@ -61,23 +61,20 @@ h1 {
 /* ------- NAV MENU ----- */
 .nav-container {
     padding-top: 1em;
-}
-
-.nav-menu {
     background-color: #252525;
     width: 100%;
     padding-bottom: 2em;
     text-align: center;
 }
 
-.nav-menu ul li {
+.nav-container ul li {
     display: inline;
     text-transform: lowercase;
     list-style-type: none;
     padding: 1em 2em;
 }
 
-.nav-menu ul li a {
+.nav-container ul li a {
     text-decoration: none;
     color: #c6cbcf;
     font-family: "Oswald", sans-serif;
@@ -85,7 +82,7 @@ h1 {
     font-weight: 300;
 }
 
-.nav-menu ul li a:hover {
+.nav-container ul li a:hover {
     text-decoration: none;
     color: #6ba0d7;
     font-size: 2.0rem;
@@ -223,7 +220,7 @@ footer p {
 
 
 /* ---------------- BLOG PAGE ------------------ */
-#contact-banner {
+#blog-banner {
     width: 100%;
     height: auto;
 }
