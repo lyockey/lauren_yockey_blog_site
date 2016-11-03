@@ -43,7 +43,7 @@ h1 {
 .banner {
     background: url("http://laurenyockey.com/wie/wp-content/uploads/2016/10/banner.png") no-repeat center center;
     background-size: cover;
-    height: 400px;
+    height: 350px;
 }
 
 .banner p {
@@ -53,18 +53,21 @@ h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     width: 30%;
-    padding: 0.75em;
-    margin-left: 60%;
+    padding: 0.5em;
+    margin-left: 20em;
 }
 
 
 /* ------- NAV MENU ----- */
 .nav-container {
-    padding-top: 1em;
     background-color: #252525;
     width: 100%;
-    padding-bottom: 2em;
     text-align: center;
+    padding: 0.3em 0;
+}
+
+.nav-container ul {
+    padding-top: 1em;
 }
 
 .nav-container ul li {
@@ -95,12 +98,14 @@ h1 {
     font-size: 2.5rem;
     font-weight: 300;
     padding-top: 3.5em;
+    margin-bottom: 3em;
 }
 
 #bolder {
     font-weight: 400;
     color: #61386b;
     font-size: 2.5rem;
+    margin-left:4.5em;
 }
 
 .page-heading {
@@ -113,26 +118,36 @@ h1 {
     letter-spacing: 1px;
 }
 
-.fp-container {
+.page-container {
     width: 80%;
     margin: auto;
 }
 
-.fp-container h3 {
+.fp-heading {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #252525;
+    font-size: 3.2rem;
+    padding-top: 1em;
 }
 
-.fp-container h3 a {
+.page-container img {
+    float: left;
+    border: 1px solid #dddddd;
+    border-radius: 250px;
+    margin: 0 2em 0.5em 0;
+}
+
+#fp-title a {
     font-size: 2.5rem;
     text-decoration: none;
 }
 
-.fp-container p {
+.page-container p {
     color: #5b5e60;
     font-family: "Slabo 27px", sans-serif;
     font-weight: lighter;
+    font-size: 1.9rem;
 }
 
 .read-more-button {
@@ -177,6 +192,11 @@ h1 {
 
 
 /* ------ SIDEBAR ------ */
+.sidebar {
+    border-left: 1px solid #cccccc;
+    padding-left: 2em;
+}
+
 .widget-sidebar h2 {
     font-family: "Oswald", sans-serif;
     font-size: 2.0rem;
@@ -205,12 +225,18 @@ h1 {
     color: #5b5e60;
 }
 
+#profile-pic {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 
 /* ------ FOOTER ------- */
 .footer-wrapper {
     background-color: #b7b7b7;
     padding: 5em 1em 4em;
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 footer p {
@@ -220,11 +246,14 @@ footer p {
 
 
 /* ---------------- BLOG PAGE ------------------ */
+.banner-container {
+    margin: 0;
+}
+
 #blog-banner,
 #contact-banner {
     width: 100%;
     height: auto;
 }
-
 
 /* ---------------- CONTACT PAGE ---------------- */

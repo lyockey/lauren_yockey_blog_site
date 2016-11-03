@@ -4,7 +4,7 @@
         <section class="row">
             <div class="twelve columns">
                 <div class="banner">
-                    <p>Web Interactivity</p>
+                    <p id="banner-overlay">Web Interactivity</p>
                     <p> &amp; Engagement</p>
                 </div>
             </div>
@@ -16,8 +16,8 @@
         </section>
 <!-- INTRO COPY -->
         <section class="row">
-            <div class="eight columns">
-                <p id="introcopy">A collection of work from the Web Interactivity &amp; Engagement course <span id="bolder">as part of the University of Florida's WDOC program</span></p>
+            <div class="twelve columns">
+                <p id="introcopy">A collection of work from the Web Interactivity &amp; Engagement course<br/><span id="bolder">as part of the University of Florida's WDOC program</span></p>
             </div>
         </section>
 <!-- FEATURED POST -->
@@ -47,7 +47,7 @@
                 </div>
             </div>
         <!-- End Section Container -->
-            <div class="four columns">
+            <div class="four columns sidebar">
                 <?php get_sidebar(); ?>
             </div>
         </section>
