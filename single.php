@@ -2,7 +2,7 @@
 
 
 <!-- Begin Section Container -->
-  <section class="row">
+  <section class="row single-page">
     <div class="twelve columns">
 
   <!-- BEGIN LOOP -->
@@ -17,7 +17,7 @@
                     </div>
                 <?php } ?>
 
-                <h2><?php the_title(); ?></h2>
+                <h3 class="fp-title single-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php the_content();
             }
         }?>

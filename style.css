@@ -278,3 +278,36 @@ footer p {
 .contact {
     padding-top: 2em;
 }
+
+
+/* ------------------ SINGLE PAGE ------------- */
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.single-post-title {
+    margin-top: 2em;
+}
+
+.single-post-title a{
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+blockquote h4,
+.single-page h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+    color: #61386b;
+}
+
+blockquote h4 {
+    text-align: center;
+    font-weight: 400;
+}
+blockquote h2,
+.single-page p,
+.single-page p a {
+    font-family: "Slabo 27px", serif;
+}
