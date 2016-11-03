@@ -196,6 +196,7 @@ h1 {
 .sidebar {
     border-left: 1px solid #cccccc;
     padding-left: 2em;
+    margin-top: 5em;
 }
 
 .widget-sidebar h2 {
@@ -268,4 +269,12 @@ footer p {
 .blog-post-headings {
     margin-top: 2em;
 }
+
+.main-blog-content #searchform {
+    margin-top: 3em;
+}
 /* ---------------- CONTACT PAGE ---------------- */
+
+.contact {
+    padding-top: 2em;
+}
