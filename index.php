@@ -34,7 +34,7 @@
                                 the_post_thumbnail('thumbnail');
                             }
                         ?>
-                        <h3 id="fp-title">
+                        <h3 class="fp-title">
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
                             </a>

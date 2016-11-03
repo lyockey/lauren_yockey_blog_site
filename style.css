@@ -138,12 +138,13 @@ h1 {
     margin: 0 2em 0.5em 0;
 }
 
-#fp-title a {
+.fp-title a {
     font-size: 2.5rem;
     text-decoration: none;
 }
 
-.page-container p {
+.page-container p,
+.main-blog-content p {
     color: #5b5e60;
     font-family: "Slabo 27px", sans-serif;
     font-weight: lighter;
@@ -247,7 +248,7 @@ footer p {
 
 /* ---------------- BLOG PAGE ------------------ */
 .banner-container {
-    margin: 0;
+    margin-bottom: -0.3em;
 }
 
 #blog-banner,
@@ -256,4 +257,15 @@ footer p {
     height: auto;
 }
 
+.main-blog-content {
+    margin-top: 5em;
+}
+
+.main-blog-content p {
+    margin-bottom: 2em;
+}
+
+.blog-post-headings {
+    margin-top: 2em;
+}
 /* ---------------- CONTACT PAGE ---------------- */
