@@ -3,17 +3,17 @@
 get_header(); ?>
 
 <div class="row">
-    <div class="eight columns">
+    <div class="eight columns search-page">
 
         <?php if( have_posts() ) :?>
-            <h1><?php printf(
+            <h2 class="page-heading"><?php printf(
                 __('Search Results for: %s'),
                 '<span>' . get_search_query() . '</span>' );
-            ?></h1>
+            ?></h2>
 
             <?php
             while (have_posts()) : the_post(); ?>
-                <h2><?php the_title(); ?></h2>
+                <h3 class="fp-title blog-post-headings"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <?php the_content();
             endwhile;
 
@@ -24,7 +24,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="four columns">
+    <div class="four columns sidebar">
         <?php get_sidebar(); ?>
     </div>
 </div>

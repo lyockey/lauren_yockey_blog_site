@@ -20,10 +20,6 @@ Text Domain: lauren_yockey_blog_site
     font-family: "Oswald", sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-    color: #999999;
-}
-
 h1 {
   font-size: 5.0rem;
   font-weight: 400;
@@ -144,7 +140,8 @@ h1 {
 }
 
 .page-container p,
-.main-blog-content p {
+.main-blog-content p,
+.search-page p {
     color: #5b5e60;
     font-family: "Slabo 27px", sans-serif;
     font-weight: lighter;
@@ -270,9 +267,25 @@ footer p {
     margin-top: 2em;
 }
 
+.blog-post-headings a {
+    font-size: 3rem;
+}
+
+.main-blog-content p a {
+    font-family: "Slabo 27px", serif;
+}
+
 .main-blog-content #searchform {
     margin-top: 3em;
 }
+
+p strong,
+ul li {
+    color: #61386b;
+    font-size: 1.9rem;
+}
+
+
 /* ---------------- CONTACT PAGE ---------------- */
 
 .contact {
@@ -296,7 +309,9 @@ footer p {
 }
 
 blockquote h4,
-.single-page h3 {
+.single-page h3,
+.search-page h3,
+.search-page h2 {
     font-family: "Oswald", sans-serif;
     font-size: 2em;
     color: #61386b;
@@ -311,3 +326,10 @@ blockquote h2,
 .single-page p a {
     font-family: "Slabo 27px", serif;
 }
+
+p em {
+    font-family: "Slabo 27px", serif;
+    color: #5b5e60;
+    font-size: 1.8rem;
+}
+/* -------------- SEARCH PAGE ----------------- */

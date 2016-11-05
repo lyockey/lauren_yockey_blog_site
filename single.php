@@ -17,7 +17,7 @@
                     </div>
                 <?php } ?>
 
-                <h3 class="fp-title single-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <h2 class="fp-title single-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <?php the_content();
             }
         }?>
