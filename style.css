@@ -66,6 +66,7 @@ p em {
     width: 100%;
     text-align: center;
     padding: 0.3em 0;
+    margin-top: -0.3em;
 }
 
 .nav-container ul {
@@ -322,27 +323,35 @@ ul li {
     margin-top: 2em;
 }
 
-.single-post-title a{
+.single-post-title a {
     font-size: 1em;
     margin-top: 1em;
 }
 
-blockquote h4,
+#quote-source,
 .single-page h3,
 .search-page h3,
 .search-page h2 {
     font-family: "Oswald", sans-serif;
-    font-size: 2em;
+    font-size: 2.8rem;
     color: #61386b;
 }
 
-blockquote h4 {
-    text-align: center;
+blockquote h2 {
     font-weight: 400;
+    font-family: "Slabo 27px", serif;
+    color: #363636
 }
 
+#quote-source,
 blockquote h2 {
-    font-family: "Slabo 27px", serif;
+    text-align: center;
 }
+
+
 /* -------------- SEARCH PAGE ----------------- */
 /* -------------- 404 PAGE -------------------- */
+.404-page h3 {
+    color: #1eaedb;
+    font-size: 2.5rem;
+}
