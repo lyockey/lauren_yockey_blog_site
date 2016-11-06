@@ -13,6 +13,7 @@ Text Domain: lauren_yockey_blog_site
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 
+/* Global Styles */
 *{
     color: #000000;
     font-size: 14px;
@@ -36,21 +37,20 @@ h1 {
     font-size: 3.0rem;
 }
 
-.banner {
-    background: url("http://laurenyockey.com/wie/wp-content/uploads/2016/10/banner.png") no-repeat center center;
-    background-size: cover;
-    height: 350px;
+p {
+    color: #625e5d;
+    font-size: 1.9rem;
 }
 
-.banner p {
+p,
+p a {
     font-family: "Slabo 27px", serif;
-    color: #61386b;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    width: 30%;
-    padding: 0.5em;
-    margin-left: 20em;
+}
+
+p em {
+    font-family: "Slabo 27px", serif;
+    color: #5b5e60;
+    font-size: 1.8rem;
 }
 
 
@@ -87,7 +87,26 @@ h1 {
     font-size: 2.0rem;
 }
 
+
+/* -------------- HOME PAGE ----------------- */
+.banner {
+    background: url("http://laurenyockey.com/wie/wp-content/uploads/2016/10/banner.png") no-repeat center center;
+    background-size: cover;
+    height: 350px;
+}
+
+.banner p {
+    color: #61386b;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 30%;
+    padding: 0.5em;
+    margin-left: 20em;
+}
+
 #introcopy {
+    font-family: "Oswald", serif;
     width: 95%;
     text-align: center;
     color: #61386b;
@@ -143,9 +162,7 @@ h1 {
 .main-blog-content p,
 .search-page p {
     color: #5b5e60;
-    font-family: "Slabo 27px", sans-serif;
     font-weight: lighter;
-    font-size: 1.9rem;
 }
 
 .read-more-button {
@@ -160,7 +177,7 @@ h1 {
 }
 
 /* ------ PAGINATION ------ */
-.navigation li a,
+/*.navigation li a,
 .navigation li a:hover,
 .navigation li.active a,
 .navigation li.disabled {
@@ -186,7 +203,7 @@ h1 {
 .navigation li a:hover,
 .navigation li.active a {
 	background-color: #3C8DC5;
-}
+}*/
 
 
 /* ------ SIDEBAR ------ */
@@ -317,16 +334,9 @@ blockquote h4 {
     text-align: center;
     font-weight: 400;
 }
-blockquote h2,
-.single-page p,
-.single-page p a,
-.search-page p a {
-    font-family: "Slabo 27px", serif;
-}
 
-p em {
+blockquote h2 {
     font-family: "Slabo 27px", serif;
-    color: #5b5e60;
-    font-size: 1.8rem;
 }
 /* -------------- SEARCH PAGE ----------------- */
+/* -------------- 404 PAGE -------------------- */
