@@ -271,10 +271,6 @@ footer p {
     font-size: 3rem;
 }
 
-.main-blog-content p a {
-    font-family: "Slabo 27px", serif;
-}
-
 .main-blog-content #searchform {
     margin-top: 3em;
 }
@@ -323,7 +319,8 @@ blockquote h4 {
 }
 blockquote h2,
 .single-page p,
-.single-page p a {
+.single-page p a,
+.search-page p a {
     font-family: "Slabo 27px", serif;
 }
 
