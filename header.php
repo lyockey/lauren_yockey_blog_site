@@ -13,7 +13,7 @@
     <div class="container">
         <header class="row">
             <div class="twelve columns">
-                <h1><?php bloginfo('name'); ?></h1>
+                <h1><a href="http://www.laurenyockey.com/wie"><?php bloginfo('name'); ?></a></h1>
                 <p id="subhead"><?php bloginfo('description'); ?></p>
             </div>
         </header>
