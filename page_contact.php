@@ -15,7 +15,7 @@ Template name: Contact
     </section>
 
     <section class="row">
-        <div class="twelve columns">
+        <div class="twelve columns form-container">
             <?php
             wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'nav-container' ) );
             ?>

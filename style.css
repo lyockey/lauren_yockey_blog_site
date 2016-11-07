@@ -307,6 +307,21 @@ ul li {
     padding-top: 2em;
 }
 
+#form10 {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.wdform-label {
+    font-size: 1.6rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.form10 .button-submit {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+}
 
 /* ------------------ SINGLE PAGE ------------- */
 .post-thumbnail img {
