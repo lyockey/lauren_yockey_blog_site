@@ -183,35 +183,6 @@ p em {
     border-radius: 3px;
 }
 
-/* ------ PAGINATION ------ */
-/*.navigation li a,
-.navigation li a:hover,
-.navigation li.active a,
-.navigation li.disabled {
-	color: #fff;
-	text-decoration:none;
-}
-
-.navigation li {
-	display: inline;
-}
-
-.navigation li a,
-.navigation li a:hover,
-.navigation li.active a,
-.navigation li.disabled {
-	background-color: #6FB7E9;
-	border-radius: 3px;
-	cursor: pointer;
-	padding: 12px;
-	padding: 0.75rem;
-}
-
-.navigation li a:hover,
-.navigation li.active a {
-	background-color: #3C8DC5;
-}*/
-
 
 /* ------ SIDEBAR ------ */
 .sidebar {
@@ -305,7 +276,31 @@ ul li {
     font-size: 1.9rem;
 }
 
+.navigation {
+    text-align: center;
+    margin: 4em 2em 3em;
+}
 
+.newer,
+.older {
+    background-color: #1eaedb;
+    padding: 0.45em 2em;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 3px;
+}
+
+.older {
+    margin-left: 2em;
+}
+
+.newer a,
+.older a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* ---------------- CONTACT PAGE ---------------- */
 
 .contact {
