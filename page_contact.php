@@ -25,6 +25,17 @@ Template name: Contact
     <section class="row">
         <div class="eight columns">
             <h2 class="page-heading contact">Contact</h2>
+            <!-- BEGIN LOOP -->
+            <?php if ( have_posts() ) {
+                while( have_posts() ) {
+                /*OUR DATA CONTEXT IS DEFINED*/
+                the_post(); ?>
+                <?php the_content();?>
+            <?php
+            } //end while
+            pagination_wie();
+        } ?>
+  <!--END LOOP -->
         </div>
 
         <div class="four columns sidebar">

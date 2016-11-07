@@ -5,7 +5,7 @@ Template name: Blog Posts
 ?>
 
 <?php get_header(); ?>
-<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+<?php query_posts('post_type=post&post_status=publish&posts_per_page=3&paged='. get_query_var('paged')); ?>
 
 <!-- Begin Section Container -->
 <section class="row">
@@ -26,7 +26,7 @@ Template name: Blog Posts
     <!-- BEGIN LOOP -->
     <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>
-            
+
                 <h3 class="fp-title blog-post-headings"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
                 <p class="date"><?php the_date(); ?></p>
